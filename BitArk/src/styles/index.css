@@ -1,0 +1,26 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 設定全局的字體 */
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif; /* 預設英文字體 */
+}
+
+/* 針對中文設定字體 */
+html:lang(zh-TW), body {
+  font-family: 'Noto Sans TC', sans-serif; /* 中文字體 */
+}

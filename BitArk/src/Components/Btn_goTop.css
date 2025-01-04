@@ -1,0 +1,14 @@
+#goTop-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#goTop-btn img {
+    width: 50px;
+    height: 50px;
+}
