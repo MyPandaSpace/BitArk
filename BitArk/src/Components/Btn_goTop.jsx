@@ -34,7 +34,7 @@ export default function Btn_goTop() {
     <div>
       {isVisible && (
         <div id="goTop-btn" onClick={scrollToTop}>
-          <img src="/images/Navbar/go_Top.svg" alt="goTop" />
+          <img src="./icons/go_Top.svg" alt="goTop" />
         </div>
       )}
     </div>

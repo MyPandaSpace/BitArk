@@ -1,11 +1,11 @@
-function About() {
+function NEWS() {
 	return (
 		<>
-			<div id='About-banner'>
+			<div>
 				<button className='banner-button'>探索幣方舟</button>
 			</div>
 		</>
 	)
 }
 
-export default About
+export default NEWS

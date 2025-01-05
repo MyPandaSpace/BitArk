@@ -1,0 +1,21 @@
+#Footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 20px;
+}
+
+/* Logo Styling */
+.Footer-logo .logo {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}

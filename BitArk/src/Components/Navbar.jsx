@@ -27,12 +27,12 @@ const Navbar = () => {
 	return (
 		<nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
 			<div className="navbar-logo">
-				<a href="/" className="logo"><img src="/images/Navbar/logo.svg" alt="" /><span>幣方舟</span></a>
+				<a href="/" className="logo"><img src="./images/Navbar/logo.svg" alt="" /><span>幣方舟</span></a>
 			</div>
 			<ul className="navbar-links">
-				<li><Link to="/Crypto">貨幣介紹</Link></li>
-				<li><Link to="/Exchanges">交易所介紹</Link></li>
-				<li><Link to="/About">關於</Link></li>
+				<li><Link to="/Crypto">NEWS</Link></li>
+				<li><Link to="/Exchanges">貨幣介紹</Link></li>
+				<li><Link to="/FAQ">常見問題</Link></li>
 			</ul>
 		</nav>
 	);
