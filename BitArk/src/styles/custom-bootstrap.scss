@@ -25,3 +25,18 @@
 .carousel-control-next-icon {
   margin-right: 40px;
 }
+
+.carousel-caption {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 40%; /* 調整這個值來改變距離上方的距離 */
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.carousel-caption h3 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #FFF;
+}

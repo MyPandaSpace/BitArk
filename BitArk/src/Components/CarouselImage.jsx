@@ -1,9 +1,10 @@
 import React from 'react';
+import './CarouselImage.css';
 
-export default function CarouselImage({ text }) {
+export default function CarouselImage({ src,text }) {
   return (
     <div className="carousel-image">
-      <img src="https://img.capital.com/imgs/articles/1200x627x1/Bitcoin-investing-Shutterstock.com-.jpg" alt={text} />
+      <img src={src} alt={text} />
       <p>{text}</p>
     </div>
   );
