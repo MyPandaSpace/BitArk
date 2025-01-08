@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 const CryptoSection = () => {
 	const [currentContent, setCurrentContent] = useState(0);
-	const [isTransitioning, setIsTransitioning] = useState(false); 
+	const [isTransitioning, setIsTransitioning] = useState(false);
 
 	// 定義每個虛擬貨幣的介紹內容
 	const contentData = [
@@ -22,6 +22,7 @@ const CryptoSection = () => {
 			use: '智能合約平台、去中心化應用',
 			description:
 				'以太坊是一個開放源代碼的區塊鏈平台，不僅支持虛擬貨幣交易，還允許開發者建立智能合約和去中心化應用（dApps）。智能合約是自動執行的合約條款，無需中介即可完成交易。ETH是以太坊的原生加密貨幣，並被廣泛用於支付交易手續費和運行智能合約。',
+			img: './images/Crypto/img_ETH.png',
 		},
 		{
 			title: '穩定幣（Stablecoins）',
@@ -80,7 +81,7 @@ const CryptoSection = () => {
 						<br />
 						<p>{contentData[currentContent].description}</p>
 					</div>
-					<img className="Crypto-image" src="" alt="" />
+					<img className="Crypto-image" src={contentData[currentContent].img} alt="" />
 				</div>
 			</section >
 			<Footer />

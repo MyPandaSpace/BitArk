@@ -67,6 +67,7 @@
 
 #Crypto-nav-title {
   padding: 0 60px;
+  font-size: 20px;
   display: flex;
   color: #000;
 }
@@ -100,9 +101,20 @@
 }
 
 .Crypto-content {
+  width: 70%;
   line-height: 2;
   opacity: 1;
   transition: opacity 0.4s ease-in-out;
+}
+
+.Crypto-content p {
+  padding: 0 40px;
+  font-size: 20px;
+}
+
+.Crypto-content img {
+  width: 400px;
+  height: fit-content;
 }
 
 /* 添加過渡的效果類別 */

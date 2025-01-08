@@ -28,7 +28,7 @@
 }
 
 #NEWS-section2-latest {
-  width: 100%;
+  width: 80%;
 }
 
 .NEWS-section2-latest-cards-row {
@@ -101,4 +101,34 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   -webkit-line-clamp: 3;
+}
+
+#NEWS-section2-hot {
+  width: 20%;
+  height: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: #3561c0 solid 5px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+}
+
+#NEWS-section2-hot h2 {
+  text-align: center;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#NEWS-section2-hot li {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#NEWS-section2-hot-list {
+  position: sticky;
+  top: 20px;
+  /* 距離視窗頂部的距離 */
+  max-width: 300px;
+  /* 設置一個合理的寬度，防止內容過寬 */
 }

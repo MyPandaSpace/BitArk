@@ -159,6 +159,16 @@ function NEWS() {
 							</article>
 						</div>
 					</div>
+					<div id='NEWS-section2-hot'>
+						<div className='NEWS-section2-hot-list'>
+							<h2>熱門焦點</h2>
+							<li>比特幣價格突破新高！(15,682 views)</li>
+							<li>以太坊2.0升級完成，挖礦模式將改變？(12,304 views)</li>
+							<li>區塊鏈如何改變傳統金融？(9,876 views)</li>
+							<li>熱門加密貨幣投資策略分析(7,543 views)</li>
+							<li>如何選擇適合的新興加密貨幣？(6,219 views)</li>
+						</div>
+					</div>
 				</div>
 			</section>
 			<Footer />
