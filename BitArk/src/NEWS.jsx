@@ -14,15 +14,15 @@ function NEWS() {
 			<section id='NEWS-section1'>
 				<Carousel prevLabel="" nextLabel="">
 					<Carousel.Item>
-						<CarouselImage src="./images/News/img_NEWS_Banner1.jpg" />
+						<CarouselImage src="./images/News/img_NEWS_Banner1.png" />
 						<Carousel.Caption>
 							<h3>比特幣突破歷史新高</h3>
 							<p>比特幣價格再次飆升，引發全球投資者熱議，其總市值已達數萬億美元。</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<CarouselImage />
-						<Carousel.Caption src="">
+						<CarouselImage src="./images/News/img_NEWS_Banner2.png" />
+						<Carousel.Caption>
 							<h3>區塊鏈技術改變金融世界</h3>
 							<p>區塊鏈技術正廣泛應用於跨境支付、供應鏈管理和數位身份認證，顛覆傳統金融模式。</p>
 						</Carousel.Caption>
@@ -49,16 +49,37 @@ function NEWS() {
 								<img src="./images/News/img_article.png" alt="" />
 								<h2>活動1</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article2.png" alt="" />
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article3.png" alt="" />
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 						</div>
 						<div className='NEWS-section2-latest-cards-row'>
@@ -66,16 +87,37 @@ function NEWS() {
 								<img src="./images/News/img_article.png" alt="" />
 								<h2>活動1</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article2.png" alt="" />
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article3.png" alt="" />
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 						</div>
 						<div className='NEWS-section2-latest-cards-row'>
@@ -83,16 +125,37 @@ function NEWS() {
 								<img src="./images/News/img_article.png" alt="" />
 								<h2>活動1</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article2.png" alt="" />
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 							<article className='NEWS-section2-latest-card'>
 								<img src="./images/News/img_article3.png" alt="" />
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
 							</article>
 						</div>
 					</div>

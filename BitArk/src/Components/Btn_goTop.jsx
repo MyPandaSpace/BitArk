@@ -7,7 +7,7 @@ export default function Btn_goTop() {
   // 監聽滾動事件
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 400) {
         setIsVisible(true); // 顯示按鈕
       } else {
         setIsVisible(false); // 隱藏按鈕
