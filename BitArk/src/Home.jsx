@@ -45,8 +45,8 @@ function Home() {
           <div className='Intro-banner-container'>
             <div id='Intro-banner-container-row'>
               <div id='Intro-banner-title' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="300">
-                <img src="./icons/logo.svg" alt="" />
                 <h2>關於幣方舟</h2>
+                <img src="./icons/logo.svg" alt="" />
               </div>
               <div id='Intro-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
                 <li>幣方舟帶領您進入加密貨幣的世界，除了提供基本介紹外同時整合了最新的虛擬貨幣資訊。</li>
