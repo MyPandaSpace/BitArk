@@ -27,7 +27,7 @@ const Navbar = () => {
 	return (
 		<nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
 			<div className="navbar-logo">
-				<a href="#/" className="logo"><img src="./images/Navbar/logo.svg" alt="" /><span>幣方舟</span></a>
+				<a href="#/" className="logo"><img src="./icons/logo.svg" alt="" /><span>幣方舟</span></a>
 			</div>
 			<ul className="navbar-links">
 				<li><Link to="/NEWS">NEWS</Link></li>

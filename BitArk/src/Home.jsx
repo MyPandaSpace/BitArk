@@ -32,7 +32,7 @@ function Home() {
         <Btn_goTop />
         <section id='Home-banner'>
           <div id='Home-banner-title' data-aos="fade-up" data-aos-duration="2500">
-            <img src="./images/Home/logo.svg" alt="" />
+            <img src="./icons/logo.svg" alt="" />
             <h1>幣方舟</h1>
           </div>
           <div id='Home-banner-subtitle' data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="1000">
@@ -44,13 +44,14 @@ function Home() {
         <section id='Intro-banner' ref={introRef}>
           <div className='Intro-banner-container'>
             <div id='Intro-banner-container-row'>
-              <div id='Intro-banner-title' data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
+              <div id='Intro-banner-title' data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="300">
+                <img src="./icons/logo.svg" alt="" />
                 <h2>關於幣方舟</h2>
               </div>
               <div id='Intro-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
-                <p>幣方舟帶領您進入加密貨幣的世界，除了提供基本介紹外同時整合了最新的虛擬貨幣資訊。
-                  <br /><br />
-                  無論您是新手還是有經驗的投資者，都能在這裡找到有價值的資源，幫助您更了解加密貨幣的動態與趨勢。</p>
+                <li>幣方舟帶領您進入加密貨幣的世界，除了提供基本介紹外同時整合了最新的虛擬貨幣資訊。</li>
+                <br /><br />
+                <li>無論您是新手還是有經驗的投資者，都能在這裡找到有價值的資源，幫助您更了解加密貨幣的動態與趨勢。</li>
               </div>
             </div>
             <Btn_ScrollDown />
@@ -59,7 +60,7 @@ function Home() {
         <section id='Intro2-banner'>
           <div className='Intro2-banner-container'>
             <div id='Intro2-banner-container-row'>
-              <div id='Intro2-banner-title' data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
+              <div id='Intro2-banner-title' data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="300">
                 <h2>虛擬貨幣的起源</h2>
               </div>
               <div id='Intro2-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">

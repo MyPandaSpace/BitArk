@@ -5,17 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 10px 20px;
+    gap: 60px;
+    padding: 10px 10px;
 }
 
-/* Logo Styling */
 .Footer-logo .logo {
     display: flex;
-    gap: 6px;
     align-items: center;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.Footer-logo .logo span {
+    width: 100px;
 }

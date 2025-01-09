@@ -93,7 +93,7 @@
 
 #Crypto-section2 {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
   background-color: #fff;
   padding: 60px 60px;
   display: flex;
@@ -101,6 +101,7 @@
 }
 
 .Crypto-content {
+  margin: 0 20px;
   width: 70%;
   line-height: 2;
   opacity: 1;
@@ -110,10 +111,12 @@
 .Crypto-content p {
   padding: 0 40px;
   font-size: 20px;
+  text-align: justify;
 }
 
 .Crypto-content img {
-  width: 400px;
+  width: 200px;
+  margin: 30px 20px;
   height: fit-content;
 }
 

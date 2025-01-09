@@ -118,19 +118,29 @@
 }
 
 #Intro-banner-title {
-  width: 300px;
+  width: 20%;
   padding-left: 60px;
   height: fit-content;
-  font-size: 28px;
+  font-size: 32px;
   display: flex;
   justify-content: center;
+  gap: 3%;
+}
+
+#Intro-banner-title img {
+  width: 14%;
 }
 
 #Intro-banner-content {
   width: 600px;
   height: fit-content;
-  font-size: 20px;
+  font-size: 22px;
   display: flex;
+  flex-direction: column;
+}
+
+#Intro-banner-content li::marker {
+  color: #fcd443;
 }
 
 #Intro2-banner {
