@@ -6,6 +6,7 @@ import Btn_goTop from './Components/Btn_goTop'
 import { useEffect, useRef, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 function Home() {
   const introRef = useRef(null);
@@ -39,7 +40,7 @@ function Home() {
             <p>帶您探索加密貨幣的世界</p>
             <p>乘載入門所需的資訊</p>
           </div>
-          <button className='banner-button' onClick={scrollToIntro}>探索幣方舟</button>
+          <button id='banner-button' onClick={scrollToIntro}>探索幣方舟</button>
         </section>
         <section id='Intro-banner' ref={introRef}>
           <div className='Intro-banner-container'>
@@ -64,10 +65,16 @@ function Home() {
                 <h2>虛擬貨幣的起源</h2>
               </div>
               <div id='Intro2-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
-                <p>虛擬貨幣是一種基於區塊鏈技術的數位資產，最早由化名中本聰（Satoshi Nakamoto）於2009年創造的比特幣（Bitcoin）引領潮流。
-                  <br /><br />
-                  它的誕生源自對傳統金融系統的挑戰，旨在提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，形成了今日多元化的虛擬貨幣生態系統。</p>
+                <li>虛擬貨幣是一種基於區塊鏈技術的數位資產，最早由化名中本聰（Satoshi Nakamoto）於2009年創造的比特幣（Bitcoin）引領潮流。
+                </li>
+                <br /><br />
+                <li>
+                  它的誕生源自對傳統金融系統的挑戰，旨在提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，而形成了今日多元化的虛擬貨幣生態系統。</li>
               </div>
+            </div>
+            <div id='Intro2-banner-btn'>
+              <Btn_ScrollDown />
+              <Link to="/NEWS"><button>前往<br />幣方舟</button></Link>
             </div>
           </div>
         </section>
