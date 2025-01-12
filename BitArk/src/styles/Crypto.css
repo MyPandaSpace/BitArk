@@ -54,8 +54,8 @@
   /* 使 a 標籤為行內塊元素 */
   padding: 10px 20px;
   /* 為鏈接添加內邊距，讓它更具可點擊感 */
-  border: #39b1e1 solid 1px;
-  border-bottom: #39b1e1 solid 6px;
+  border: black solid 1px;
+  border-bottom: black solid 6px;
   border-radius: 99px;
   transition: background-color 0.3s;
 }
@@ -73,7 +73,7 @@
 }
 
 #Crypto-nav-title h2 {
-  border-bottom: #089cd6 solid 5px;
+  border-bottom: black solid 5px;
 }
 
 #Crypto-section2-content {

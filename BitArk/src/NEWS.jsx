@@ -45,10 +45,12 @@ function NEWS() {
 				<div id='NEWS-section2-content'>
 					<div id='NEWS-section2-latest'>
 						<div className='NEWS-section2-latest-cards-row'>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article.png" alt="" />
-								<h2>活動1</h2>
-								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article.png" alt="" />
+								</div>
+								<h2>虛擬貨幣的現狀與未來發展</h2>
+								<p>虛擬貨幣作為數位時代的產物，正以驚人的速度改變全球經濟的運作方式。比特幣（Bitcoin）作為首個虛擬貨幣，自 2009 年問世以來，已從一個技術實驗成長為具有全球影響力的金融資產。而隨著以太坊（Ethereum）、瑞波幣（Ripple）、卡爾達諾（Cardano）等多樣化的加密貨幣的出現，整個市場正在快速擴張。</p>
 								<div className='NEWS-section2-latest-card-footer'>
 									<small>2025/01/01</small>
 									<div>
@@ -56,9 +58,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article2.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article2.png" alt="" />
+								</div>
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -68,9 +72,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article3.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article3.png" alt="" />
+								</div>
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -80,11 +86,13 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
+							</article></a>
 						</div>
 						<div className='NEWS-section2-latest-cards-row'>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article.png" alt="" />
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article.png" alt="" />
+								</div>
 								<h2>活動1</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -94,9 +102,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article2.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article2.png" alt="" />
+								</div>
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -106,9 +116,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article3.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article3.png" alt="" />
+								</div>
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -118,11 +130,13 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
+							</article></a>
 						</div>
 						<div className='NEWS-section2-latest-cards-row'>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article.png" alt="" />
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article.png" alt="" />
+								</div>
 								<h2>活動1</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -132,9 +146,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article2.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article2.png" alt="" />
+								</div>
 								<h2>活動2</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -144,9 +160,11 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
-							<article className='NEWS-section2-latest-card'>
-								<img src="./images/News/img_article3.png" alt="" />
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article3.png" alt="" />
+								</div>
 								<h2>活動3</h2>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
 								<div className='NEWS-section2-latest-card-footer'>
@@ -156,7 +174,51 @@ function NEWS() {
 										<small>1256</small>
 									</div>
 								</div>
-							</article>
+							</article></a>
+						</div>
+						<div className='NEWS-section2-latest-cards-row'>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article.png" alt="" />
+								</div>
+								<h2>活動1</h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article2.png" alt="" />
+								</div>
+								<h2>活動2</h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
+							</article></a>
+							<a href="#/ArticlePage"><article className='NEWS-section2-latest-card'>
+								<div className="image-container">
+									<img src="./images/News/img_article3.png" alt="" />
+								</div>
+								<h2>活動3</h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime perferendis doloribus, corrupti sequi consequatur adipisci ex excepturi! Explicabo, exercitationem!</p>
+								<div className='NEWS-section2-latest-card-footer'>
+									<small>2025/01/01</small>
+									<div>
+										<small><img id='icon' src="./icons/eye-solid.svg" alt="" /></small>
+										<small>1256</small>
+									</div>
+								</div>
+							</article></a>
 						</div>
 					</div>
 				</div>
