@@ -36,3 +36,16 @@
     font-size: 14px;
     text-align: right;
 }
+
+@media (max-width: 768px) {
+    #Footer-notice {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #Footer-notice {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
