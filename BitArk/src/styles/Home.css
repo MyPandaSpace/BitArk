@@ -167,6 +167,7 @@
 
 #Intro2-banner-title {
   font-size: 1.8rem;
+  margin-left: 20px;
 }
 
 #Intro2-banner-content {
@@ -208,4 +209,138 @@
   background-color: #fcd443;
   color: #333;
   font-weight: 600;
+}
+
+/* 平板及以下 */
+@media (max-width: 768px) {
+  #Home-banner {
+    height: 110vh;
+    /* 減小高度，讓重點內容更集中 */
+    background-size: cover;
+  }
+
+  #Home-banner-title {
+    top: 20%;
+    /* 調整標題位置 */
+    left: 50%;
+    transform: translate(-50%, -30%);
+    gap: 5px;
+    /* 減少間距 */
+  }
+
+  #Home-banner-title h1 {
+    font-size: 44px;
+    /* 減小字體大小 */
+  }
+
+  #Home-banner-title img {
+    width: 30px;
+    /* 縮小圖標 */
+    height: 30px;
+  }
+
+  #Home-banner-subtitle {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    /* 減小副標題字體大小 */
+    top: 36%;
+    left: 50%;
+    color: white;
+  }
+
+  #banner-button {
+    top: 76%;
+    left: 50%;
+    width: 150px;
+    /* 減小按鈕寬度 */
+    height: 60px;
+    /* 減小按鈕高度 */
+    font-size: 16px;
+    /* 減小文字大小 */
+  }
+
+  #Intro-banner,
+  #Intro2-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    /* 減少內邊距 */
+    height: 100vh;
+    /* 自動適應內容 */
+  }
+
+  .Intro-banner-container {
+    justify-content: flex-end;
+    gap: 300px;
+    margin: 0;
+  }
+
+  #Intro-banner-container-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Intro-banner-content {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  #Intro-banner-title {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    height: fit-content;
+    font-size: 22px;
+  }
+
+  #Intro-banner-title img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Intro2-banner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Intro2-banner-container-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  #Intro2-banner-title {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  #Intro2-banner-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Intro2-banner-content li {
+    font-size: 14px;
+  }
+}
+
+/* 手機小螢幕 */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 0 8px;
+  }
 }

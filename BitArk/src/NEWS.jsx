@@ -15,26 +15,26 @@ function NEWS() {
 				<Carousel prevLabel="" nextLabel="">
 					<Carousel.Item>
 						<CarouselImage src="./images/News/img_NEWS_Banner1.png" />
-						<Carousel.Caption>
+						<a href="#/ArticlePage"><Carousel.Caption>
 							<h3>比特幣突破歷史新高</h3>
 							<p>比特幣價格再次飆升，引發全球投資者熱議，其總市值已達數萬億美元。</p>
-						</Carousel.Caption>
+						</Carousel.Caption></a>
 					</Carousel.Item>
 					<Carousel.Item>
 						<CarouselImage src="./images/News/img_NEWS_Banner2.png" />
-						<Carousel.Caption>
+						<a href="#/ArticlePage"><Carousel.Caption>
 							<h3>區塊鏈技術改變金融世界</h3>
 							<p>區塊鏈技術正廣泛應用於跨境支付、供應鏈管理和數位身份認證，顛覆傳統金融模式。</p>
-						</Carousel.Caption>
+						</Carousel.Caption></a>
 					</Carousel.Item>
 					<Carousel.Item>
 						<CarouselImage src="./images/News/img_NEWS_Banner3.png" />
-						<Carousel.Caption>
+						<a href="#/ArticlePage"><Carousel.Caption>
 							<h3>以太坊2.0全面升級</h3>
 							<p>
 								以太坊2.0成功過渡到股權證明機制，能源效率提升99%，成為更具永續性的區塊鏈網路。
 							</p>
-						</Carousel.Caption>
+						</Carousel.Caption></a>
 					</Carousel.Item>
 				</Carousel>
 			</section>

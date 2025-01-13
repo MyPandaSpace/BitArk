@@ -13,7 +13,7 @@
 }
 
 .navbar-scrolled {
-	background-color: black;
+	background-color: #111;
 }
 
 /* Logo Styling */
@@ -56,4 +56,10 @@
 		/* 右上 */
 		-2px 2px 4px #b0a917;
 	/* 左下 */
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		padding: 0;
+	}
 }
