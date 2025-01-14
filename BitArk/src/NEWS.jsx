@@ -12,7 +12,7 @@ function NEWS() {
 			<Navbar />
 			<Btn_goTop />
 			<section id='NEWS-section1'>
-				<Carousel prevLabel="" nextLabel="">
+				<Carousel prevLabel="" nextLabel="" interval={4000}>
 					<Carousel.Item>
 						<CarouselImage src="./images/News/img_NEWS_Banner1.png" />
 						<a href="#/ArticlePage"><Carousel.Caption>

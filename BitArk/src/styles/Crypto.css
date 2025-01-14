@@ -43,18 +43,13 @@
 
 #Crypto-nav li {
   margin-right: 20px;
-  /* 調整項目之間的間距 */
 }
 
 #Crypto-nav a {
   text-decoration: none;
-  /* 移除鏈接的下劃線 */
   color: inherit;
-  /* 讓顏色繼承父元素的顏色 */
   display: inline-block;
-  /* 使 a 標籤為行內塊元素 */
   padding: 10px 20px;
-  /* 為鏈接添加內邊距，讓它更具可點擊感 */
   border: #111 solid 1px;
   border-bottom: #111 solid 6px;
   border-radius: 99px;
@@ -63,7 +58,6 @@
 
 #Crypto-nav a:hover {
   background-color: #ffc130;
-  /* 可選：滑鼠懸停時更改背景顏色 */
 }
 
 #Crypto-nav-title {
@@ -124,12 +118,10 @@
 /* 添加過渡的效果類別 */
 .Crypto-content.fade-out {
   opacity: 0;
-  /* 當元素漸變為透明 */
 }
 
 .Crypto-content.fade-in {
   opacity: 1;
-  /* 當元素漸變為不透明 */
 }
 
 @media (max-width: 768px) {
@@ -165,6 +157,10 @@
 
   #Crypto-nav li {
     margin: 0;
+  }
+
+  #Crypto-nav a {
+    font-size: 12px;
   }
 
   #Crypto-section2-content {

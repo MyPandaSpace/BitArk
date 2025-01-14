@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer id='Footer'>
 			<div className="Footer-content">
 				<div className="Footer-logo">
-					<a href="/" className="logo">
+					<a href="#/" className="logo">
 						<img src="./images/Footer/logo.svg" alt="" />
 						<span>幣方舟</span>
 					</a>

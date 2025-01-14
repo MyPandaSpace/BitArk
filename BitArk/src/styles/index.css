@@ -16,10 +16,10 @@
   margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  font-family: 'Exo 2', sans-serif; /* 預設英文字體 */
+  font-family: 'Exo 2', sans-serif;
 }
 
 /* 針對中文設定字體 */
 html:lang(zh-TW), body {
-  font-family: 'Noto Sans TC', sans-serif; /* 中文字體 */
+  font-family: 'Noto Sans TC', sans-serif;
 }

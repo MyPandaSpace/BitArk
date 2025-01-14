@@ -2,6 +2,7 @@ import Navbar_Article from './Components/Navbar_Article';
 import Btn_goTop from './Components/Btn_goTop';
 import Footer from './Components/Footer';
 import './styles/ArticlePage.css';
+import Breadcrumb from './Components/Breadcrumb';
 
 function ArticlePage() {
   return (
@@ -12,6 +13,7 @@ function ArticlePage() {
       <Btn_goTop />
       <section id='Article-section1'>
         <div className='article-container'>
+          <Breadcrumb />
           <h1 className='article-title'>虛擬貨幣的現狀與未來發展</h1>
           <p className='article-meta'>發布日期：2025/01/01 | 作者：John Doe</p>
           <img

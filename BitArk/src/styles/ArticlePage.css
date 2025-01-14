@@ -61,14 +61,14 @@
 
 @media (max-width: 768px) {
     #Article-section1 {
-        padding: 100px 10px;
+        padding: 80px 10px;
     }
     .article-title {
         font-size: 24px;
     }
     .article-container {
         margin: 0;
-        padding: 40px 20px;
+        padding: 20px 20px;
     }
 
     .article-image {
