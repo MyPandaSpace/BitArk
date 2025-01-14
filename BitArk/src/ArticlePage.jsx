@@ -16,7 +16,7 @@ function ArticlePage() {
           <p className='article-meta'>發布日期：2025/01/01 | 作者：John Doe</p>
           <img
             className='article-image'
-            src='./images/News/img_article.png'
+            src='./images/News/img_article1.png'
             alt='文章圖片'
           />
           <div className='article-content'>

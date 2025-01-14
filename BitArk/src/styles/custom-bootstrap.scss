@@ -10,12 +10,12 @@
   object-position: center;
 }
 
-.carousel-control-prev ,
+.carousel-control-prev,
 .carousel-control-next {
   width: fit-content;
   height: fit-content;
   top: 50%;
-  transform: translateY(-50%); 
+  transform: translateY(-50%);
 }
 
 .carousel-control-prev-icon {
@@ -43,4 +43,86 @@
   font-size: 54px;
   font-weight: 600;
   color: #FFF;
+}
+
+@media (max-width: 768px) {
+
+  /* 在手機版上調整輪播的高度 */
+  .carousel {
+    height: 40vh;
+  }
+
+  .carousel-item {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+  }
+
+  .carousel-caption h3 {
+    width: 65%;
+    height: fit-content;
+    position: absolute;
+    top: -300%;
+    left: -2%;
+    font-size: 20px;
+  }
+
+  .carousel-caption p {
+    width: 53%;
+    font-size: 11px;
+    position: absolute;
+    top: -180%;
+    left: 3%;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  // 平板
+  .carousel {
+    height: 60vh;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+  }
+
+  .carousel-caption h3 {
+    width: 60%;
+    height: fit-content;
+    position: absolute;
+    top: -300%;
+    left: 0;
+    font-size: 36px;
+  }
+
+  .carousel-caption p {
+    width: 53%;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    font-size: 22px;
+  }
 }

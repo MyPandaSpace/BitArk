@@ -1,9 +1,10 @@
 #Home-banner {
   width: 100%;
   height: 100vh;
-  background-image: url('/images/Home/Home_banner.png');
+  background-image: linear-gradient(rgba(30, 30, 30, 0.01), rgba(30, 30, 30, 0.01)), url('/images/Home/Home_banner.png');
   background-size: cover;
   background-position: center;
+  opacity: 0.9;
   z-index: 1;
 }
 
@@ -64,26 +65,6 @@
   color: #333;
   font-weight: 600;
 }
-
-/* 第二區 */
-/* 遮罩 */
-/* .mask {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  z-index: 1000;
-} */
-
-/* 顯示遮罩 */
-/* .mask.show {
-  opacity: 1;
-} */
 
 #Intro-banner {
   width: 100%;
@@ -256,19 +237,32 @@
     font-size: 16px;
   }
 
+
   #Intro-banner,
   #Intro2-banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px;
+    padding: 40px 30px;
     height: 100vh;
+  }
+
+  #Intro-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/Home/bg_Intro2.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #Intro2-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/Home/bg_Intro3.png');
+    background-size: cover;
+    background-position: center;
   }
 
   .Intro-banner-container {
     justify-content: flex-end;
-    gap: 300px;
+    gap: 220px;
     margin: 0;
   }
 
@@ -327,7 +321,7 @@
     font-size: 14px;
   }
 
-  #Intro2-banner-btn button{
+  #Intro2-banner-btn button {
     width: 100px;
     height: 100px;
     font-size: 14px;
@@ -369,6 +363,7 @@
     height: 70px;
     font-size: 16px;
   }
+
   #Intro-banner-title {
     width: 320px;
     padding: 0;
@@ -401,7 +396,7 @@
     font-size: 20px;
     padding: 0;
   }
-  
+
   #Intro2-banner-title {
     font-size: 32px;
     margin: 0;
