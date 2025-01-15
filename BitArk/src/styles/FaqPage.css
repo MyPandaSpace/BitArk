@@ -97,6 +97,10 @@
     }
 
     #faq-list {
+        padding: 20px;
+    }
+
+    #faq-list {
         width: 100%;
     }
 }
