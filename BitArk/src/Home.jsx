@@ -69,7 +69,7 @@ function Home() {
                 </li>
                 <br /><br />
                 <li id='Intro2-banner-content-2' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000">
-                  它的誕生源自對傳統金融系統的挑戰，旨在提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，進而形成了今日多元化的虛擬貨幣生態系統。</li>
+                  它的誕生源自對傳統金融系統的挑戰，主要提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，進而形成了今日多元化的虛擬貨幣生態系統。</li>
               </div>
             </div>
             <div id='Intro2-banner-btn-container'>
