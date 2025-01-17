@@ -49,10 +49,10 @@ function Home() {
                 <h2>關於幣方舟</h2>
                 <img src="./icons/logo.svg" alt="" />
               </div>
-              <div id='Intro-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
-                <li>幣方舟帶領您進入加密貨幣的世界，除了提供基本介紹外同時整合了最新的虛擬貨幣資訊。</li>
+              <div id='Intro-banner-content'>
+                <li id='Intro-banner-content-1' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">幣方舟帶領您進入加密貨幣的世界，除了提供貨幣基本介紹外，同時整合最新的虛擬貨幣資訊。</li>
                 <br /><br />
-                <li>無論您是新手還是有經驗的投資者，都能在這裡找到有價值的資源，幫助您更了解加密貨幣的動態與趨勢。</li>
+                <li id='Intro-banner-content-2' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000">無論您是新手還是有經驗的投資者，都能在這裡找到有價值的資源，幫助您更了解加密貨幣的動態與趨勢。</li>
               </div>
             </div>
             <Btn_ScrollDown />
@@ -64,17 +64,19 @@ function Home() {
               <div id='Intro2-banner-title' data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="300">
                 <h2>虛擬貨幣的起源</h2>
               </div>
-              <div id='Intro2-banner-content' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
-                <li>虛擬貨幣是一種基於區塊鏈技術的數位資產，最早由化名中本聰（Satoshi Nakamoto）於2009年創造的比特幣（Bitcoin）引領潮流。
+              <div id='Intro2-banner-content'>
+                <li id='Intro2-banner-content-1' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">虛擬貨幣是一種基於區塊鏈技術的數位資產，最早由化名中本聰（Satoshi Nakamoto）於2009年創造的比特幣（Bitcoin）引領潮流。
                 </li>
                 <br /><br />
-                <li>
-                  它的誕生源自對傳統金融系統的挑戰，旨在提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，而形成了今日多元化的虛擬貨幣生態系統。</li>
+                <li id='Intro2-banner-content-2' data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000">
+                  它的誕生源自對傳統金融系統的挑戰，旨在提供一種去中心化、點對點的交易方式，不依賴銀行或政府機構。比特幣的成功啟發了更多加密貨幣的發展，進而形成了今日多元化的虛擬貨幣生態系統。</li>
               </div>
             </div>
-            <div id='Intro2-banner-btn'>
-              <Btn_ScrollDown />
-              <Link to="/NEWS"><button>前往<br />幣方舟</button></Link>
+            <div id='Intro2-banner-btn-container'>
+              <div id='Intro2-banner-btn'>
+                <Btn_ScrollDown />
+                <Link to="/NEWS"><button>前往<br />幣方舟</button></Link>
+              </div>
             </div>
           </div>
         </section>
