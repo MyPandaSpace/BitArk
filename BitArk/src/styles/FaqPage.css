@@ -97,15 +97,15 @@
     }
 
     #faq-list {
-        padding: 20px;
+        padding: 10px;
     }
 
     #faq-list {
-        width: 100%;
+        width: 80%;
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #faq-list {
         width: 70%;
     }

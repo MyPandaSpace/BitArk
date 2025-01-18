@@ -101,6 +101,7 @@
 #Intro-banner-title {
   width: 30%;
   padding-left: 60px;
+  padding-bottom: 60px;
   height: fit-content;
   font-size: 1.8rem;
   display: flex;
@@ -174,14 +175,14 @@
   justify-content: center;
   align-items: center;
   width: 46%;
-  padding: 40px;
+  padding: 60px 40px;
   font-size: 1.1rem;
   text-align: left;
 }
 
 #Intro2-banner-content-1 {
   align-self: flex-end;
-  width: 80%;
+  width: 95%;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -189,7 +190,7 @@
 }
 
 #Intro2-banner-content-2 {
-  width: 80%;
+  width: 85%;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -357,6 +358,7 @@
   }
 
   #Intro2-banner-title {
+    text-align: center;
     font-size: 20px;
     margin: 0;
     margin-bottom: 40px;
@@ -369,11 +371,13 @@
   }
 
   #Intro2-banner-content-1 {
+    scale: 0.9;
     width: 84%;
     padding: 15px;
   }
 
   #Intro2-banner-content-2 {
+    scale: 0.9;
     width: 82%;
     padding: 15px;
   }
@@ -384,9 +388,9 @@
 
   #Intro2-banner-btn-container {
     padding: 0;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
+    scale: 0.8;
   }
 
   #Intro2-banner-btn button {
@@ -513,6 +517,7 @@
   }
 
   #Intro2-banner-title {
+    padding-left: 16%;
     font-size: 32px;
     margin: 0;
   }
